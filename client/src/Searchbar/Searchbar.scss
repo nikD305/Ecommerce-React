@@ -1,0 +1,75 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 20px;
+margin-top: 80px;
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  margin-right: 100px;
+  svg{
+    position: absolute;
+    right: 282px;
+    cursor: pointer;
+
+    &:hover{
+      color: purple;
+    }
+  }
+      .ais-SearchBox {
+        .ais-SearchBox-form {
+          .ais-SearchBox-input {
+            height: 50px;
+            width: 600px;
+          }
+  
+          .ais-SearchBox-submit {
+            display: none;
+          }
+  
+          .ais-SearchBox-reset {
+            display: none;
+          }
+        }
+      }
+    }
+  
+    .hit {
+      .ais-Hits {
+        .ais-Hits-list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+          list-style: none;
+        }
+      }
+    }
+  }
+  
+  .main {
+    .link {
+      display: flex;
+      flex-direction: column;
+  
+      .title {
+        font-weight: 500;
+        font-size: medium;
+        letter-spacing: 1px;
+      }
+  
+      .price {
+        color: gray;
+      }
+  
+      .image {
+        img {
+          object-fit: cover;
+          border-radius: 5px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+      }
+    }
+  }
+  

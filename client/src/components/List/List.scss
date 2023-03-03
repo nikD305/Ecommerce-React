@@ -1,0 +1,102 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-top: 15px;
+    .loading{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 500px;
+    }
+    .front{
+        display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    }
+
+    .back{
+
+        .pagination{
+            display: flex;
+            gap: 2px;
+            cursor: pointer;
+            justify-content: center;
+            .boxes{
+                width: 50px;
+                border: 2px solid rgb(130, 69, 243);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2px;
+                background-color: rgb(130, 69, 243);
+                color: white;
+                  &:hover{
+                    opacity: 50%;
+                  }
+            }
+            .foxes{
+                width: 50px;
+                border: 2px solid gray;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2px;
+                  &:hover{
+                    opacity: 50%;
+                  }
+            }
+
+            .prev{
+              
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                border: 2px solid gray;
+                   &:hover{
+                    opacity: 50%;
+                   }              
+            }
+            .rev{
+              
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                border: 2px solid rgb(219, 216, 216);
+                color: rgb(219, 216, 216);
+                   &:hover{
+                    opacity: 50%;
+                   }              
+            }
+            
+            .nex{
+             
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                border: 2px solid gray;
+                  &:hover{
+                    opacity: 50%;
+                    
+                  }
+            }
+            .ex{
+             
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                border: 2px solid rgb(219, 216, 216);
+                color: rgb(219, 216, 216);
+                  &:hover{
+                    opacity: 50%;
+                    
+                  }
+            }
+        }
+    }
+}

@@ -1,0 +1,117 @@
+.bar {
+  
+  overflow: hidden;
+
+  .slider {
+    overflow: hidden;
+
+    .search {
+      position: absolute;
+      z-index: 9999;
+
+      .search {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        transition: 0.4s;
+      }
+
+      margin-top: 0px;
+      height: 512px;
+      width: 1500px;
+      background: white;
+      transition: 0.4s;
+      margin-left: 0px;
+    }
+
+    position: relative;
+    height: calc(100vh - 80px);
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+
+    .container {
+      width: 300vw;
+      height: 100%;
+      display: flex;
+      transition: all 1s ease;
+      overflow: hidden;
+
+      .images {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        img {
+          width: 100vw;
+          height: 100%;
+          object-fit: cover;
+          // object-position: top;
+        }
+
+        img:nth-child(2) {
+          
+          object-fit: cover;
+          object-position: 0% 30% ;
+        }
+
+        img:nth-child(3) {
+          object-fit: cover;
+          object-position: 0% 50%;
+        }
+
+        img:nth-child(1) {
+          position: relative;
+        }
+      }
+
+      .btn {
+        position: absolute;
+        bottom: 85px;
+        left: 100px;
+        width: 135px;
+        height: 50px;
+        border: none;
+        border-radius: 20px;
+        letter-spacing: 2px;
+        z-index: 999;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        &:hover {
+          background: linear-gradient(#168fec, #1b17d7);
+          color: rgba(255, 255, 255, 1);
+          box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+          color: white;
+          font-weight: 500;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .icons {
+      width: fit-content;
+      display: flex;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 100px;
+      gap: 10px;
+      margin: auto;
+
+      .icon {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: white;
+
+        &:hover {
+          border-color: white;
+        }
+      }
+    }
+  }
+}

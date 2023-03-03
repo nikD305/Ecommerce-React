@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@300&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Labrada', serif;
+ }
+
+ .home{
+  overflow-x: hidden;
+ }
+ .container::-webkit-scrollbar {
+ 
+
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+ .box-container{
+    padding-bottom: 10rem;
+ }
+ .swiper-button-next,
+ .swiper-button-prev{
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+
+ }
+
+ .swiper-button-next::after,
+ .swiper-button-prev::after{
+  display: none;
+ }
+
+
+ .swiper-button-prev{
+   background-image: url("https://cdn-icons-png.flaticon.com/512/339/339148.png");
+ height: 55px !important;
+   width: 55px !important;
+   margin-top: -7% !important;
+   rotate: 180deg;
+  
+}
+
+ .swiper-button-next{
+   background-image: url("https://cdn-icons-png.flaticon.com/512/339/339148.png");
+   height: 55px !important;
+   width: 55px !important;
+
+   margin-top: -7% !important; 
+ }
+
+ .swiper-button-next:active,
+ .swiper-button-prev:active {
+   opacity: 0.3;
+   transition: opacity 0.2s ease-in-out;
+ }
+
