@@ -1,1 +1,1 @@
-# Ecommerce-React
+# Ecommerce-React-Strapi
